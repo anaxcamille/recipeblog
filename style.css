@@ -1,0 +1,777 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+	margin: 30px 10% 0px 2%;
+}
+.Cheese{
+	position: absolute;
+	width: 969px;
+	height: 470px;
+	left: 234px;
+	top: 193px;
+	border-radius: 5%;
+}
+.cheeserecipe{
+position: absolute;
+width: 587px;
+height: 64px;
+left: 236px;
+top: 49px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px;
+}
+.dot{
+	left: 236px;
+	top: 130px;
+	position: absolute; 
+}
+.details{
+	position: absolute;
+	width: 592px;
+	height: 51px;
+	left: 261px;
+	top: 125px;
+	font-family: Montserrat;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+}
+.ing{
+	position: absolute;
+	width: 128px;
+	height: 32px;
+	left: 236px;
+	top: 711px;
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+}
+.graham{
+position: absolute;
+width: 200px;
+height: 24px;
+left: 237px;
+top: 775px;
+
+font-family: Playfair Display;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+}
+.frst{
+	position: absolute;
+width: 21px;
+height: 21px;
+left: 237px;
+top: 829px;
+}
+.first{
+width: 554px;
+height: 50px;
+left: 275px;
+top: 830px;
+}
+.scond{
+position: absolute;
+width: 21px;
+height: 21px;
+left: 237px;
+top: 882px;
+}
+.second{
+width: 390px;
+height: 25px;
+left: 275px;
+top: 883px;
+}
+.thrd{
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 237px;
+	top: 919px;
+}
+.third{
+	width: 250px;
+	height: 20px;
+	left: 275px;
+	top: 922px;
+}
+.first,.second,.third{
+	position: absolute;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+}
+.cheesecake{
+	position: absolute;
+width: 287px;
+height: 48px;
+left: 238px;
+top: 980px;
+
+font-family: Playfair Display;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+}
+.chs1{
+top: 1040px;
+}
+.chees1{
+	width: 599px;
+	height: 50px;
+	top: 1040px;
+}
+.chs2{
+top: 1102px;
+}
+.chees2{
+	width: 246px;
+	height: 20px;
+	top: 1102px;
+}
+.chs3{
+top: 1137px;
+}
+.chees3{
+	width: 459px;
+	height: 25px;
+	top: 1135px;
+}
+.chs4{
+top: 1172px;
+}
+.chees4{
+	width: 251px;
+	height: 20px;
+	top: 1173px;
+}
+.chs5{
+top: 1207px;
+}
+.chees5{
+	width: 488px;
+	height: 25px;
+	top: 1205px;
+}
+.chs6{
+top: 1244px;
+}
+.chees6{
+	width: 287px;
+	height: 25px;
+	top: 1242px;
+}
+.chs7{
+top: 1279px;
+}
+.chees7{
+	width: 543px;
+	height: 75px;
+	left: 275px;
+	top: 1279px;
+}
+.chs1,.chs2,.chs3,.chs4,.chs5,.chs6,.chs7{
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	left: 237px;
+}
+.chees1,.chees2,.chees3,.chees4,.chees5,.chees6,.chees7{
+	left: 275px;
+	position: absolute;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+}
+.content{
+	position: absolute;
+	width: 216px;
+	height: 367px;
+	left: 984px;
+	top: 711px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 12px;
+}
+	.food{
+		display: flex;
+		flex-direction: column;
+	}
+	.service{
+		display: flex;
+		margin: 50px 0px 30px 35px;
+	}
+	.icon{
+		width: 30px;
+		height: 30px;
+	}
+	.yields,.time{
+		height: 12px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 10px;
+		color: #BDBDBD;
+	}
+	.serving{
+	color: #F2994A;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	}
+	.preptime{
+		display: flex;
+		margin: 30px 0px 30px 35px;
+	}
+	.minutes{
+		height: 12px;
+		left: 1069px;
+		top: 844px;
+		color: #333333;
+
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+ .instruction{
+ 	position: absolute;
+	width: 137px;
+	height: 32px;
+	left: 236px;
+	top: 1382px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+ } 
+  .number1{
+	 width: 30%;
+	height: 32px;
+	left: 249px;
+	top: 1440px;
+	position: absolute;
+ }
+ .label1{
+ 	position: absolute;
+	width: 36px;
+	height: 32px;
+ }
+.steps1{
+	width: 528px;
+	height: 40px;
+}
+.number2{
+	 width: 30%;
+	height: 32px;
+	left: 249px;
+	top: 1513px;
+	position: absolute;
+ }
+ .label2{
+ 	position: absolute;
+	width: 36px;
+	height: 32px;
+ }
+.steps2{
+	width: 538px;
+	height: 40px;
+}
+.number3{
+	 width: 30%;
+	height: 32px;
+	left: 249px;
+	top: 1799px;
+	position: absolute;
+ }
+ .label3{
+ 	position: absolute;
+	width: 36px;
+	height: 32px;
+ }
+.steps3{
+	width: 538px;
+	height: 40px;
+}
+.number4{
+	 width: 30%;
+	height: 32px;
+	left: 249px;
+	top: 2077px;
+	position: absolute;
+ }
+ .label4{
+ 	position: absolute;
+	width: 36px;
+	height: 32px;
+ }
+.steps4{
+	width: 538px;
+	height: 40px;
+}
+.number5{
+	 width: 30%;
+	height: 32px;
+	left: 249px;
+	top: 2357px;
+	position: absolute;
+ }
+ .label5{
+ 	position: absolute;
+	width: 36px;
+	height: 32px;
+ }
+.steps5{
+	width: 538px;
+	height: 40px;
+}
+.number6{
+	 width: 30%;
+	height: 32px;
+	left: 249px;
+	top: 2589px;
+	position: absolute;
+ }
+ .label6{
+ 	position: absolute;
+	width: 36px;
+	height: 32px;
+ }
+.steps6{
+	width: 538px;
+	height: 40px;
+}
+.number7{
+	 width: 30%;
+	height: 32px;
+	left: 249px;
+	top: 2723px;
+	position: absolute;
+ }
+ .label7{
+ 	position: absolute;
+	width: 36px;
+	height: 32px;
+ }
+.steps7{
+	width: 538px;
+	height: 40px;
+}
+ .label1,.label2,.label3,.label4,.label5,.label6,.label7{
+ 	padding-left: 13px;
+ 	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+	background: #F2994A;
+	border-radius: 6px;
+	color: white;
+ }
+.steps1,.steps2,.steps3,.steps4,.steps5,.steps6,.steps7{
+	left: 50px;
+	position: absolute;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+}
+@media (min-width: 1024px) and (max-width: 1225px){
+	.Cheese{
+	width: 489px;
+	height: 290px;
+	left: 106px;
+	top: 193px;
+	}
+	.cheeserecipe{
+	width: 587px;
+	height: 64px;
+	left:76px;
+	top: 49px;
+	font-size: 20px;
+	}
+	.dot{
+		left: 85px;
+		top: 130px;
+	}
+	.details{
+		width: 492px;
+		height: 51px;
+		left: 109px;
+		top: 115px;
+		font-size: 12px;
+	}
+	.ing{
+	left:110px;
+	top: 511px;
+	font-size: 20px;
+	}
+	.graham{
+	left:110px;
+	top: 545px;
+	font-size: 15px;
+	}
+	.frst{
+	top: 582px;
+	left:110px;
+	}
+	.first{
+	top: 582px;
+	left:140px;
+	}
+	.scond{
+	top: 605px;
+	}
+	.second{
+	top: 605px;
+	}
+	.thrd{
+	top: 630px;
+	}
+	.third{
+	top: 630px;
+	}
+	.frst,.scond,.thrd,.chs1,.chs2,.chs3,.chs4,.chs5,.chs6,.chs7{
+	left:110px;
+	width: 15px;
+	height: 15px;
+	}
+	.first,.second,.third,.chees1,.chees2,.chees3,.chees4,.chees5,.chees6,.chees7{
+	left:140px;
+	font-size: 8px;
+	}
+	.cheesecake{
+	left:110px;
+	font-size: 15px;
+	top: 660px;
+	}
+	.chs1{
+	top: 700px;
+	}
+	.chees1{
+	top: 695px;
+	}
+	.chs2{
+	top: 725px;
+	}
+	.chees2{
+	top: 720px;
+	}
+	.chs3{
+	top: 750px;
+	}
+	.chees3{
+		top: 746px;
+	}
+	.chs4{
+	top: 775px;
+	}
+	.chees4{
+		top: 770px;
+	}
+	.chs5{
+	top: 800px;
+	}
+	.chees5{
+		top: 795px;
+	}
+	.chs6{
+	top: 824px;
+	}
+	.chees6{
+		top: 820px;
+	}
+	.chs7{
+	top: 849px;
+	}
+	.chees7{
+		top: 845px;
+	}
+	.content{
+	position: absolute;
+	width: 120px;
+	height: 267px;
+	left: 484px;
+	top: 511px;
+	}
+	 .instruction{
+	left: 106px;
+	top: 892px;
+	font-size: 15px;
+	 } 
+	  .number1{
+		left: 120px;
+		top: 940px;
+	 }
+	 .number2{
+	left: 120px;
+	top: 983px;
+	 }
+	  .number3{
+		left: 120px;
+		top: 1130px;
+	 }
+	  .number4{
+		left: 120px;
+		top: 1260px;
+	 }
+	 .number5{
+		left: 120px;
+		top: 1390px;
+	 }
+	 .number6{
+		left: 120px;
+		top: 1500px;
+	 }
+	 .number7{
+		left: 120px;
+		top: 1590px;
+	 }
+	  .icon{
+		width: 20px;
+		height: 20px;
+	}
+	.yields,.time,.serving,.minutes{
+	font-size: 10px;
+	}
+	.food{
+		margin-left: 5px;
+	}
+	.service{
+		margin: 50px 0px 20px 10px;
+	}
+	.preptime{
+		display: flex;
+		margin: 20px 0px 20px 10px;
+	}
+	 .label1,.label2,.label3,.label4,.label5,.label6,.label7{
+	 	width: 20px;
+	 	padding-left: 8px;
+		font-size: 12px;
+	 }
+	 .steps1,.steps2,.steps3,.steps4,.steps5,.steps6,.steps7{
+	 	top:5px;
+		left: 30px;
+		font-size: 10px;
+	}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 375px){
+	.Cheese{
+	width: 330px;
+	height:200px;
+	left: 20px;
+	top: 200px;
+	z-index: 1;
+	}
+	.cheeserecipe{
+	top: 10px;
+	left:15px;
+	font-size: 25px;
+	z-index: 1;
+	}
+	.dot{
+		left: 20px;
+		top: 79px;
+		z-index: 1;
+	}
+	.details{
+		width: 310px;
+		left: 43px;
+		top: 70px;
+		font-size: 13px;
+		line-height: 20px;
+		z-index: 1;
+	}
+	.content{
+	width: 375px;
+	height: 3740px;
+	left: 0px;
+	top: 0px;
+	box-shadow: none;
+	z-index: 0;
+	}
+	.service{
+		display: flex;
+		margin: 420px 0px 30px 10px;
+	}
+	.icon{
+		width: 22px;
+		height: 22px;
+		margin-right: 5px;
+	}
+	.yields,.time{
+		height: 10px;
+		font-size: 9px;
+	}
+	.serving,.minutes{
+	font-size: 12px;
+	}
+	.preptime{
+		display: flex;
+		margin: 0px 0px 0px 15px;
+	}
+	.add{
+		display: flex;
+	}
+	.ing{
+	left: 20px;
+	top: 511px;
+	font-size: 20px;
+	}
+	.graham{
+	left:20px;
+	top: 545px;
+	font-size: 14px;
+	}
+	.frst{
+	top: 582px;
+	}
+	.first{
+	top: 582px;
+	}
+	.scond{
+	top: 630px;
+	}
+	.second{
+	top: 630px;
+	}
+	.thrd{
+	top: 665px;
+	}
+	.third{
+	top: 665px;
+	}
+	.frst,.scond,.thrd,.chs1,.chs2,.chs3,.chs4,.chs5,.chs6,.chs7{
+	left:20px;
+	width: 20px;
+	height: 20px;
+	}
+	.first,.second,.third,.chees1,.chees2,.chees3,.chees4,.chees5,.chees6,.chees7{
+	left:50px;
+	width:310px;
+	font-size: 12px;
+	Line height: 25px;
+	}
+	.cheesecake{
+	left:20px;
+	font-size: 15px;
+	top: 700px;
+	}
+	.chs1{
+	top: 745px;
+	}
+	.chees1{
+	top:742px;
+	}
+	.chs2{
+	top: 795px;
+	}
+	.chees2{
+	top: 792px;
+	}
+	.chs3{
+	top: 825px;
+	}
+	.chees3{
+		top: 823px;
+	}
+	.chs4{
+	top: 875px;
+	}
+	.chees4{
+		top: 872px;
+	}
+	.chs5{
+	top: 902px;
+	}
+	.chees5{
+		top: 898px;
+	}
+	.chs6{
+	top: 957px;
+	}
+	.chees6{
+		top: 955px;
+	}
+	.chs7{
+	top: 990px;
+	}
+	.chees7{
+		top: 988px;
+	}
+	 .instruction{
+		left: 20px;
+		top: 1102px;
+		font-size: 20px;
+	 } 
+	  .number1{
+		left: 20px;
+		top: 1150px;
+	 }
+	 .number2{
+		left: 20px;
+		top: 1230px;
+	 }
+	  .number3{
+		left: 20px;
+		top: 1700px;
+	 }
+	  .number4{
+		left: 20px;
+		top: 2130px;
+	 }
+	 .number5{
+		left: 20px;
+		top: 2560px;
+	 }
+	 .number6{
+		left: 20px;
+		top: 2900px;
+	 }
+	 .number7{
+		left: 20px;
+		top: 3100px;
+	 }
+	  
+	 .label1,.label2,.label3,.label4,.label5,.label6,.label7{
+	 	width: 25px;
+	 	padding-left: 8px;
+		font-size: 20px;
+	 }
+	 .steps1,.steps2,.steps3,.steps4,.steps5,.steps6,.steps7{
+	 	top:5px;
+		left: 40px;
+		width: 250px;
+		font-size: 15px;
+	}
+
+}
